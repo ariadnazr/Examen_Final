@@ -1,0 +1,41 @@
+#sectionCard{
+    display: flex;
+    flex-direction:column;
+    align-content: flex-start;
+}
+
+#lasTarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#tarjeta{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#tituloCard{
+    margin-left: 5%;
+    margin-top: 2%;
+    color: $secondary;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.card-title{
+    color: $secondary;
+}
+
+.card-text{
+    color: $secondary;
+}
+
+.card-img-top{
+
+    &:hover{
+        animation: animBoton 500ms;
+        opacity: 70%;
+    }
+}

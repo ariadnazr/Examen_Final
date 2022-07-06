@@ -1,0 +1,35 @@
+#login{
+    padding: 20%;
+    font-size:100%;
+    
+    :hover{
+        background-color: $secondary;
+    }
+
+}
+
+#menu1{
+    padding: 20%;
+    font-size: 150%;
+    
+    :hover{
+        background-color: $secondary;
+    }
+
+}
+
+#icons{
+    font-size: 200%;
+}
+
+#logo{
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    color: $info;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 12%;
+
+}
+

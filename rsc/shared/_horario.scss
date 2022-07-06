@@ -1,0 +1,37 @@
+#horariosPagina{
+    background-color:$secondary;
+    margin:0%;
+    padding:0%;
+
+}
+
+#horariosTitulo{
+    font-family:'Noto Sans SC', sans-serif;
+    color:white;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+thead{
+    background-color:$primary;
+    color:white;
+}
+
+
+tbody{
+
+    tr{
+        background-color: white;
+    }
+}
+
+#tabla{
+    width: 50%;
+    align-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+

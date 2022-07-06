@@ -1,0 +1,153 @@
+//todo todo//
+.containerr{
+    width: 90%;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider{
+    background-color: white;
+    padding: 40px 0;
+}
+
+.slider__containerr{
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    gap: 1em;
+}
+
+.slider__body{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+    display:
+    grid;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    transition: opacity 0.3;
+    justify-content: center;
+}
+
+.slider__body--show{
+    opacity: 1;
+    pointer-events: unset;
+}
+
+//icon//
+#houseIcon{
+    color: $color2;
+}
+
+#houseIcon:Hover{
+    color: black;
+}
+
+//texto//
+.sliderText{
+    max-width: 600px;
+
+}
+
+.nombre{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+    
+    color: $color2;
+}
+
+.description{
+    width: 95%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.exploreWork h1{
+    font-size: 15px;
+    color: white;
+    margin: 0%;
+    padding: 0.3%;
+}
+
+.exploreWork h1:hover{
+    color: black;
+}
+
+//btn//
+
+.btn{
+    border-color: $color2!important;
+    background-color: $color2!important;
+}
+
+.sliderImg{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;   
+}
+
+.sliderImg:hover{
+    filter: grayscale(100);
+}
+
+//flechas
+#arrowBefore, #arrowAfter{
+    cursor: pointer;
+    width: 90%;
+    color: $color2;
+}
+
+//responsive//
+
+@media (max-width:425px){
+    .slider__containerr{
+        grid-template-columns: 25px 1fr 25px;
+    }
+
+    .fa-solid{
+        width: 100%;
+    }
+
+    .sliderImg{
+        width: 180px;
+        height: 180px;
+    }
+
+    .nombre{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .description{
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width:760px){
+    .slider__body{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fg;
+        gap: 1em;
+    }
+
+    .sliderPicture{
+        grid-row: 1/2;
+    }
+
+    .sliderImg{
+        width: 210px;
+        height: 210px;
+    }
+}
+
+

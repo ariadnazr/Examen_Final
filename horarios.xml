@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listaHorarios>
+    <dia>
+
+        <nombre>Monday</nombre>
+        <hours>9am - 8pm</hours>
+        <fee>$5</fee>
+        
+    </dia>
+
+    <dia>
+    
+        <nombre>Tuesday</nombre>
+        <hours>9am - 8pm</hours>
+        <fee>Free</fee>
+        
+    </dia>
+
+    <dia>
+    
+        <nombre>Wednesday</nombre>
+        <hours>9am - 5pm</hours>
+        <fee>Free</fee>
+        
+    </dia>
+
+    <dia>
+    
+        <nombre>Thursday</nombre>
+        <hours>9am - 8pm</hours>
+        <fee>$5</fee>
+        
+    </dia>
+
+    <dia>
+    
+        <nombre>Friday</nombre>
+        <hours>9am - 10pm</hours>
+        <fee>$5</fee>
+        
+    </dia>
+
+    <dia>
+    
+        <nombre>Saturday</nombre>
+        <hours>7am - 10pm</hours>
+        <fee>$5</fee>
+        
+    </dia>
+
+    <dia>
+    
+        <nombre>Sunday</nombre>
+        <hours>7am - 6pm</hours>
+        <fee>$5</fee>
+        
+    </dia>
+
+   
+
+</listaHorarios>

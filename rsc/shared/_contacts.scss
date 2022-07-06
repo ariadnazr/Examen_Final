@@ -1,0 +1,41 @@
+#contacts{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#cuadritos{
+    background-color: $info;
+    padding: 7%;
+    margin: 5%;
+    border-radius: 20px;
+
+}
+
+#grupoCon{
+    display:flex;
+    flex-direction: row;
+    margin: 12%;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#iconCon{
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    color: $primary;
+
+    &:hover{
+        color:$secondary;
+    }
+}
+
+@media all and (max-width:700px){
+
+    #grupoCon{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
